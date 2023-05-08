@@ -1,0 +1,13 @@
+/* Beecrowd 1036 Fórmula de Bhaskara
+Calcula as raízes de uma equação de segundo grau usando
+Bhaskara. Imprime as duas raízes com cinco dígitos após o
+ponto ou a mensagem "Impossível calcular". */
+
+int main(){
+
+
+
+
+
+
+}

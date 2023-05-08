@@ -1,0 +1,14 @@
+/* Beecrowd 1871 Zero vale Zero
+Soma dois números (que não possuem zero) e se o resultado
+possui zero, o zero e retirado antes de imprimir a
+resposta. O programa para quando receber M==N==0 (e nao
+soma dos zeros). */
+
+int main(){
+
+
+
+
+
+
+}

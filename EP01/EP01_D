@@ -1,0 +1,15 @@
+/* Beecrowd 1238 Combinador
+Receba a quantidade de casos testados e cada caso teste
+recebe duas strings (1 e 2). O programa retorna a
+primeira letra da 1, a primeira da 2, a segunda da 1, a
+segunda da 2 e assim por diante. Se uma das duas strings
+for maior, as letras restantes são adicionadas ao final. */
+
+int main(){
+
+
+
+
+
+
+}

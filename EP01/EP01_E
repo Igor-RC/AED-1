@@ -1,0 +1,15 @@
+/* Beecrowd 1253 Cifra de Cesar
+Receba a quantidade de casos teste, em cada caso teste
+recebe uma sequência de caracteres maisculos e a chave de
+descriptografia (quantas posições as letras foram deslocadas).
+Usa a Cifra de Cesar modificado e imprime os personagens
+descriptografados. */
+
+int main(){
+
+
+
+
+
+
+}

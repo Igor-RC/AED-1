@@ -1,0 +1,14 @@
+/* Beecrowd 2242 Huaauhahhuahau
+Le uma string de letras minusculas de no max 50 char.
+Ignora as escutas e verifica se as vogais lidas da
+direita para a esquerda são iguais se lidas da esquerda
+para a direita. Retorna S ou N. */
+
+int main(){
+
+
+
+
+
+
+}
