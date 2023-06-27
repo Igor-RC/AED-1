@@ -1,13 +1,35 @@
-/* Beecrowd 1036 Fórmula de Bhaskara
+// Beecrowd 1036 Fórmula de Bhaskara
 Calcula as raízes de uma equação de segundo grau usando
 Bhaskara. Imprime as duas raízes com cinco dígitos após o
-ponto ou a mensagem "Impossível calcular". */
-
-int main(){
-
-
-
-
-
-
-}
+ponto ou a mensagem "Impossível calcular". //
+// D = b²- 4ac 
+// X1 = (-b + sqrt D) / 2a 
+// X2 = (-b - sqrt D) / 2a 
+#include <stdio.h>
+#include <math.h>
+  
+  int main(){
+    double X1, X2, D, bb, a, b, c;
+    printf("Entre com o valor dos Parâmetros:\n");
+    scanf("%lf" "%lf" "%lf", &a, &b, &c);
+    bb = b*b;
+    D = bb-(4*a*c);
+    if(D<0){
+      printf("Impossível de calcular!\n");
+      return 0;
+    }
+    if(D==0){
+      X1 = ((-b) + (sqrt (D)));
+      X1 = X1 / (2*a);
+      printf("%.5f %.5f\n", X1, D);
+      return 0;
+    }
+    if(D>0){
+      X1 = ((-b) + (sqrt (D)));
+      X1 = X1 / (2*a);
+      X2 = ((-b) - (sqrt (D)));
+      X2 = X2 / (2*a);
+      printf("%.5f %.5f %.5f\n", X1, X2, D);
+      return 0;
+    }
+  }
