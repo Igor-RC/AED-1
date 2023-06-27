@@ -1,14 +1,29 @@
 /* Beecrowd 1871 Zero vale Zero
 Soma dois números (que não possuem zero) e se o resultado
-possui zero, o zero e retirado antes de imprimir a
+possui zero, o zero é retirado antes de imprimir a
 resposta. O programa para quando receber M==N==0 (e nao
 soma dos zeros). */
 
-int main(){
-
-
-
-
-
-
-}
+#include <stdio.h>
+#include <string.h>
+  
+  int main(){
+    int i, a, b, c;
+    char vet[20];
+    for(i=0; i<20; i++){
+      vet[i] = 0;
+    }
+    printf("Entre com o valor dos Números a Somar:\n");
+    scanf("%d" "%d", &b, &c);
+    if(b == c && b == 0){
+      return 0;
+    }
+    a = b + c;
+    printf("%d\n", a);
+    sprintf(vet, "%d", a);
+    for(i=0; i<strlen(vet); i++){
+      if (vet[i] != '0'){
+        printf("%c", vet[i]);
+      }
+    }
+  }
