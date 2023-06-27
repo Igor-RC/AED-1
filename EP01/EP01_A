@@ -1,11 +1,5 @@
-/* Beecrowd 1000 Olá, mundo!
-Imprime "Olá, Mundo!" na tela. */
-
-int main(){
-
-
-
-
-
-
-}
+/* Imprime "Olá, Mundo!" na tela. */
+#include <stdio.h>
+  int main(){
+    printf("Hello Word!\n");
+  }
