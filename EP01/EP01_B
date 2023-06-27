@@ -1,12 +1,14 @@
 /* Beecrowd 1002 Area do Circulo
-Calcula a area do circulo com o valor do raio fornecido
+Calcule a área do circulo com o valor do raio fornecido
 pelo usuário. */
-
-int main(){
-
-
-
-
-
-
-}
+/* A = pi*R²
+#include <stdio.h>
+  int main(){
+    float pi, R, A;
+    pi=3.1415;
+    printf("Entre com o valor do Raio:\n");
+    scanf("%f", &R);
+    R=R*R;
+    A=pi*R;
+    printf("%f\n", A);
+  }
