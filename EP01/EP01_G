@@ -4,10 +4,43 @@ Ignora as escutas e verifica se as vogais lidas da
 direita para a esquerda são iguais se lidas da esquerda
 para a direita. Retorna S ou N. */
 
-int main(){
-
-
-
+#include <stdio.h>
+#include <string.h>
+  
+  int main(){
+    int i, k=0, n=0;
+    int tamanho1, tamanho2;
+    char a, b, vet[50], vit[50];
+    for(i=0; i<50; i++){
+      vet[i] = 0;
+      vit[i] = 0;
+    }
+    printf("Escreva sua risada: (Máx. 50 letras)\n");
+    scanf("%s", &vet);
+    tamanho1 = strlen(vet);
+  
+    for(i=0; i<tamanho1; i++){
+      if((vet[i] == 'a')||(vet[i] == 'e')||(vet[i] == 'i')||(vet[i] == 'o')||(vet[i] == 'u')){
+        vit[k] = vet[i];
+        k++;
+      }
+    }
+    tamanho2 = strlen(vit);
+    printf("%d\n", tamanho2);
+    k = tamanho2;
+    for(i=0; i<=tamanho2; i++){
+      a = vit[i];
+      b = vit[k];
+      if(a == b) n++;
+      printf("%d\n", n);
+      k--;
+      a=0;
+      b=0;
+      }
+   // printf("%d\n", n);
+    if(n == tamanho2) printf("S\n");
+    if(n != tamanho2) printf("N\n");
+  }
 
 
 
